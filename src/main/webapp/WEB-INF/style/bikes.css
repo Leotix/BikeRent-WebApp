@@ -1,0 +1,53 @@
+body{
+    background: url("https://i.imgur.com/wJPDsBD.png");
+}
+
+.card-img-tiles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    z-index: 5
+}
+
+.card-img-tiles .main-img>img,
+.card-img-tiles .thumblist>img {
+    display: block;
+    width: 100%
+}
+
+.card-img-tiles .main-img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-tiles .thumblist {
+    width: 33%;
+    padding-left: .375rem
+}
+
+.card-img-tiles .thumblist>img {
+    margin-bottom: .75rem
+}
+
+.card-img-tiles .thumblist>img:last-child {
+    margin-bottom: 0
+}
+
+.mb-grid-gutter {
+    margin-bottom: 30px !important;
+}
+
+.no-bikes{
+    font-family: 'Suez One', serif;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.sort-options{
+    width: 80%;
+    right: 50%;
+}

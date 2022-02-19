@@ -1,0 +1,41 @@
+body {
+    background: url("https://images6.alphacoders.com/549/thumb-1920-549198.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner{
+    font-family: 'Suez One', serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 170px;
+}
+
+.main-container-first{
+    margin-top: 300px;
+    background-color: white;
+    height: 400px;
+}
+
+h2{
+    font-family: 'Suez One', serif;
+    column-span: all;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+.why-us {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    width: 50%;
+    font-family: Trebuchet MS, Helvetica;
+    font-size: 20px;
+}

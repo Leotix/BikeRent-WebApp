@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bazy2webapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bazy2webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bazy2webapp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bazy2webapp:war exploded" />
+    </root>
+  </artifact>
+</component>
